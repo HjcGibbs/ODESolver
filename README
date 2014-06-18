@@ -1,0 +1,20 @@
+Hello!
+
+This is a ode solver that I had to write with two friends for a project. It is
+pretty simple, but I think that the maths behind the multi-step and implcit
+numerical methods is pretty cool. At the moment it solves the lorenz attractor
+but it can be changed by editing the main file and adding a new ode function.
+The input is either 'Eulers', 'RK4' or 'IRK4', these refer to Eulers method, 
+the explicit Runge Kutta method of order 4 and the implicit Runge Kutta method
+of order 4. The part which was mostly worked on by myself is the irk4 solver, 
+but I did mess around in all the files to fix bugs and optimise various 
+things: the first versions were not nearly as pretty!
+
+The other two members of the group were Ben Madafiglio and Sebastian Blefari.
+
+Feel free to take a look at how it works, it was an interesting project but
+once you understand everything there isn't much to it and since MATLAB
+has a built in ode solver, I can't see any purpose for this other than 
+education.
+
+-Harry
